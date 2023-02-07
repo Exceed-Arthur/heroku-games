@@ -1,0 +1,523 @@
+* {
+	font-family: sans-serif;
+}
+
+#titleBox
+{
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: bold;
+
+}
+#trackSection > tbody > tr {
+	font-size: 0.9rem;
+}
+
+#gameWindow {
+	display: inline-flex;
+}
+#dotWindow {
+    position: relative;
+    left: 2rem;
+
+}
+
+#dotInfoWindow {
+	background: linear-gradient(rgb(170, 75, 107), rgb(107, 107, 131), rgb(59, 141, 153));
+}
+
+#distanceBoxWrapper {
+	display: inline-flex;
+	background-color: white;
+	border-radius: 1.5rem;
+	padding: 2rem;
+	box-shadow: -21px 26px 5px -4px rgba(0,0,0,0.47);
+
+}
+
+#IdealDistanceBoxWrapper {
+	display: inline-flex;
+	background-color: white;
+	border-radius: 1.5rem;
+	padding: 2rem;
+	box-shadow: -21px 26px 5px -4px rgba(0,0,0,0.47);
+
+}
+
+#unIdealDistanceBoxWrapper {
+	display: inline-flex;
+	background-color: white;
+	border-radius: 1.5rem;
+	padding: 2rem;
+	box-shadow: 21px 6px 5px -4px rgba(0,0,0,0.47);
+}
+
+#nearestPointContainer {
+	display: inline-flex;
+	font-size: 2rem;
+	background-color: white;
+	border-radius: 1.5rem;
+	padding: 2rem;
+	box-shadow: 21px 6px 5px -4px rgba(0,0,0,0.47);
+}
+
+#distanceBox {
+	padding-left: 1rem;
+}
+#distanceBox {
+	padding-left: 1rem;
+}
+
+#pointsCountEmbed {
+	display: inline-flex;
+}
+#pointsBox32 {
+	border: 1px solid grey;
+	position: relative;
+	left: 60;
+	top: 1.5rem;
+}
+
+
+#blobBackgroundParagraph {
+    font-weight: italic;
+    color: lightgray;
+	box-shadow: -21px 26px 5px -4px rgba(0,0,0,0.47);
+	text-align: left;
+	position: relative;
+	left: 30;
+}
+#buttonsStarterPack {
+	display: inline-flex;
+    position: relative;
+    top: 50;
+}
+
+.buttonStarterPackC {
+    border-radius: 1rem;
+    font-family: futura;
+    position: relative;
+    bottom: 20;
+    min-width: 100;
+    max-width: 100;
+}
+
+.buttonStarterPackC:hover {
+    border-radius: 1rem;
+    font-family: futura;
+}
+button:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+#nearestPointContainer {
+	display: inline-flex;
+}
+
+#trackSection {
+	text-align: center;
+}
+
+#trackSecTable {
+	padding-bottom: 2rem;
+	padding-top:1rem;
+}
+
+
+
+
+#dotLevelTitle {
+	display: none;
+}
+#trackSectionRow1 {
+	display: inline-flex;
+}
+
+#embeddedLevelReport {
+	font-family: futura;
+	min-width: 600px;
+}
+
+
+#embeddedScreenName {
+	font-family: futura;
+	min-width: 600px;
+}
+
+.ranknumber {
+	padding: 1rem;
+	background-color: darkred;
+}
+
+.rankname {
+	padding: 1rem;
+	text-align: center;
+	vertical-align: center;
+	background-color: lightcoral;
+	max-width: 160px;
+
+}
+.rankscore {
+	padding: 1rem;
+	text-align: center;
+	vertical-align: center;
+	background-color: lightcoral;
+    border: 1px solid gold;
+    max-width: 70px;
+}
+#ratingBoxers {
+	display: inline-flex;
+	padding-left: 3.14rem;
+}
+#modeBox {
+	font-size: 1.5rem;
+	max-height: 50px;
+	position: relative;
+	top: 60rem;
+
+}
+
+#trackSectionBody {
+    font-family: futura;
+    border-radius: 2rem;
+}
+#trackSection2 {
+    background-color: white;
+    min-width: 300px;
+    border-radius: 2rem;
+   	box-shadow: 11px 6px 5px -4px rgba(0,19,2,0.91);
+}
+
+#trackSectionTitle{
+    font-size: 1.5rem;
+    color: orange;
+    text-align: center;
+    padding-left: 3rem;
+
+
+}
+#levelScoreBox {
+    padding-left: 2.4rem;
+}
+#mouseContainer {
+    position: relative;
+    bottom: 3rem;
+	display: inline-flex;
+	background-color: white;
+	border-radius: 1.5rem;
+	padding: 2rem;
+	font-family: 1.5rem;
+	box-shadow: -21px 6px 15px 4px rgba(0,0,0,0.47);
+}
+.statCounterBubble {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: gold;
+}
+#Gameboard {
+	padding-right: 5rem;
+	border-radius: 2rem;
+	background-image: linear-gradient(45deg, wheat, white);
+	padding-left: 3rem;
+	max-width: 410px;
+	min-height: 1200px;
+	padding-right: 1.5rem;
+}
+
+
+
+
+#timeRecordBox {
+	padding-left: 8.63rem; text-align: right;
+}
+
+#userDistanceValueBox {
+	padding-left: 1.35rem;
+	text-align: right;
+}
+
+#embeddedStatsSection1 {
+
+	border-radius: 4rem;
+    min-width: 820px;
+    max-width: 820px;
+	padding-left: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#embeddedStatsSection2 {
+	background-image: linear-gradient(45deg, red, yellow);
+	border-radius: 4rem;
+	max-width: 88%;
+	padding-left: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	box-shadow: -21px 26px 5px -4px rgba(0,0,0,0.47);
+	-webkit-box-shadow: -21px 26px 5px -4px rgba(0,0,0,0.47);
+	-moz-box-shadow: -21px 26px 5px -4px rgba(0,0,0,0.47);
+}
+#embeddedScr1 {
+	background-image: linear-gradient(45deg, red, yellow);
+	border-radius: 4rem;
+	max-width: 80%;
+	padding-left: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	box-shadow: -21px 26px 5px -4px rgba(0,0,0,0.47);
+	-webkit-box-shadow: -21px 26px 5px -4px rgba(0,0,0,0.47);
+	-moz-box-shadow: -21px 26px 5px -4px rgba(0,0,0,0.47);
+}
+
+
+#cpuDistanceValueBox {
+	padding-left: 7.6rem;
+	text-align: right
+}
+#rankname {
+	text-align: center;
+}
+#rankscore{
+	text-align: center;
+}
+text-align: center;
+
+#Leaderboard {
+	min-width: 325px;
+
+	max-width: 325px;
+	overflow-y:auto;
+	background-color: blue;
+	border-radius: 1.4rem;
+}
+
+#modalHelpGuide {
+	max-width: 800px;
+	min-width: 800px;
+	color: white;
+	font-family: futura;
+	font-weight: bold;
+	border: 1px solid royalblue;
+	border-radius: 1rem;
+	background-color: black;
+	top: 10%;
+}
+#modalLevelReport {
+	max-width: 800px;
+	min-width: 800px;
+	color: white;
+	font-family: futura;
+	font-weight: bold;
+	border: 1px solid royalblue;
+	border-radius: 1rem;
+	background-color: black;
+	top: 10%;
+}
+
+
+#modalLightLogin {
+	position: absolute;
+	right: 1000px;
+	top: 350px;
+	color: white;
+
+	font-family: futura;
+	font-weight: bold;
+	border: 1px solid royalblue;
+	border-radius: 1rem;
+	background-color: black;
+
+}
+
+#starBlocker {
+	position:absolute;
+	top:0;
+	right:0;
+	width:60%;
+	height:96.6%;
+	background-color: black;
+}
+
+#modalTitle {
+	color: gold;
+	text-align: center;
+	font-size: 3rem;
+	border: 1px solid gold;
+	border-radius: 1.3rem;
+	background-color: red;
+}
+
+#modalTitleScreenName {
+	color: gold;
+	text-align: center;
+	font-size: 3rem;
+	border: 1px solid gold;
+	border-radius: 1.3rem;
+	background-color: red;
+
+}
+
+#starContainerModal {
+	min-width: 600px;
+	min-height: 100px;
+	object-fit: auto;
+	padding-left: 60px;
+	padding-right: 100px;
+	position:relative; opacity;
+}
+
+#startScreenLogin {
+	min-width: 600px;
+	min-height: 100px;
+	object-fit: auto;
+	padding-left: 60px;
+	padding-right: 100px;
+	position:relative; opacity;
+}
+
+#startButton {
+    position: relative;
+    top: 20;
+
+}
+#pointsBox2 {
+    padding: 1rem;
+    max-height: 45px;
+
+    position: relative;
+    top: 5.2rem;
+    left: 2.2rem;
+}
+
+.BoxWrapper {
+    font-size: 1.8rem;
+    display: inline-flex;
+}
+
+#pointsCountEmbed {
+    font-size: 2.2rem;
+}
+#pointsRange {
+
+    left: 1rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    position:relative;
+    left: 60;
+}
+
+#numberofpointsexp {
+    font-size: 1.6rem;
+    max-width: 50px;
+}
+
+#puristicLeaderboard {
+    display:block;
+    position: relative;
+    bottom: 30;
+    padding-top: 2rem;
+    font-size: 0.8rem;
+    overflow-y: scroll;
+    max-width: 325px;
+    min-width: 325px;
+}
+
+
+
+
+#leaderboardTitle {
+    text-align: center;
+    color: black;
+    max-height: 50px;
+    left: 15%;
+    top: 28;
+
+}
+
+.cloudSatellite {
+    min-height: 70px;
+    min-width: 70px;
+    max-height: 70px;
+    max-width: 70px;
+    border-radius: 3rem;
+    background-color: white;
+}
+
+
+#cloudSatellite1 {
+    min-height: 90px;
+    min-width: 140px;
+    max-height: 90px;
+    max-width: 140px;
+    position: relative;
+    top: 35;
+    right: 10;
+    border-radius: 3rem;
+    background-color: white;
+}
+#cloudSatellite2 {
+    min-height: 100px;
+    min-width: 300px;
+    max-height: 100px;
+    max-width: 300px;
+    position: relative;
+    bottom: 10;
+    border-radius: 3rem;
+    background-color: white;
+}
+
+#cloudSatellite3 {
+    min-height: 150px;
+    min-width: 300px;
+    max-height: 150px;
+    max-width: 300px;
+    position: relative;
+    bottom: 20;
+    border-radius: 3rem;
+    background-color: white;
+}
+#cloudSatellite4 {
+    min-height: 70px;
+    min-width: 90px;
+    max-height: 70px;
+    max-width: 70px;
+    position: relative;
+    bottom: 10;
+    border-radius: 3rem;
+    background-color: white;
+}
+#cloudSatellite5 {
+    min-height: 90px;
+    min-width: 140px;
+    max-height: 90px;
+    max-width: 140px;
+    position: relative;
+    top: 35;
+    right: 10;
+    border-radius: 3rem;
+    background-color: white;
+}
+
+.cloudSatellites {
+
+    display: inline-flex;
+
+}
+
+footer {
+    color: pink;
+}
+
+#simulatedVisitsTable {
+    min-width: 325px;
+	max-width: 325px;
+	min-height: 300px;
+	max-height: 300px;
+    position: relative;
+    top: 1rem;
+	overflow-y:auto;
+}
