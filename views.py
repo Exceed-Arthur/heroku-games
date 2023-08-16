@@ -113,6 +113,8 @@ def game():
     gameName = request.args['game']
     if gameName == "travelingSalesman":
         return render_template("traveling_salesman_game.html")
+    elif gameName == "chemistrytoy":
+        return render_template("chemistrytoy.html")
     return jsonify(request)
 
 
